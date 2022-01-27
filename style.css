@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(192, 180, 180);
+}
+.container{
+    width: 40%;
+    height: 50%;
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 0 0;
+}
+.btn{
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 2px 0;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+.btn:hover{
+    box-shadow: none;
+}
+.box{
+    margin-left:30px ;
+    margin-right: 30px;
+    transition: 0.4s ease-in-out;
+    opacity: 1;
+}
+.para{
+    font-size: 20px;
+}
+.author{
+   margin-bottom:20px ;
+   margin-left: 300px;
+   transition: 0.5s ease-in-out;
+   opacity: 1;
+}
+.fas{
+    font-size: 50px;
+    margin-left:20px ;
+}
+
+/* @keyframes anima {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        
+    }
+} */
